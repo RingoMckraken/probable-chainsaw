@@ -11,11 +11,19 @@ android {
         applicationId "com.carnagestudios.paddyp"
         minSdk 28
         targetSdk 33
-        versionCode 1
-        versionName "1.0"
+        versionCode 1001
+        versionName "1.0.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
-    // sample
+
+    signingConfigs {
+        release {
+            storeFile file('keystore/keystore.jks')
+            storePassword 'lionhead'
+            keyAlias = 'paddypkeyalias'
+            keyPassword 'lionhead'
+        }
+    }
 
     buildTypes {
         release {
@@ -43,7 +51,7 @@ dependencies {
 
     implementation 'androidx.browser:browser:1.2.0'
     implementation 'androidx.legacy:legacy-support-v13:1.0.0'
-    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     implementation 'androidx.recyclerview:recyclerview:1.1.0'
 

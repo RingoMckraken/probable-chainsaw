@@ -15,7 +15,7 @@ jobs:
         with:
           serviceAccountJsonPlainText: $PLAY_STORE_JSON
           packageName: com.carnagestudios.paddyp
-          releaseFiles: app/build/outputs/bundle/release/app-release.aab
+          releaseFiles: app/release/app-release.aab
           track: production
           status: inProgress
           inAppUpdatePriority: 2

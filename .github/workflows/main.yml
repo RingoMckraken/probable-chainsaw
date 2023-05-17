@@ -16,10 +16,10 @@ jobs:
           serviceAccountJsonPlainText: $PLAY_STORE_JSON
           packageName: com.carnagestudios.paddyp
           releaseFiles: app/release/app-release.aab
-          track: production
+          track: internal
           status: inProgress
           inAppUpdatePriority: 2
-          userFraction: 0.33
+          userFraction: 1.0
           whatsNewDirectory: distribution/whatsnew
           mappingFile: app/build/outputs/mapping/release/mapping.txt
           debugSymbols: app/intermediates/merged_native_libs/release/out/lib

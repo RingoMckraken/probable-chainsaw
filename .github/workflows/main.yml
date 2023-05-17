@@ -16,4 +16,4 @@ jobs:
           serviceAccountJsonPlainText: $PLAY_STORE_JSON
           packageName: com.carnagestudios.paddyp
           releaseFiles: app/release/app-release.aab
-          track: internal
+          track: alpha

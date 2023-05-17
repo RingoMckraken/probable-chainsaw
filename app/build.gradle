@@ -11,8 +11,8 @@ android {
         applicationId "com.carnagestudios.paddyp"
         minSdk 28
         targetSdk 33
-        versionCode 1004
-        versionName "1.0.0.4"
+        versionCode 1005
+        versionName "1.0.0.5"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
